@@ -16,3 +16,5 @@ A simple program that converts numbers between any two bases (2–36) **without 
 ## Rules
 
 No `bin()`, `hex()`, `oct()`, `format()`, or `int(..., base)` allowed. Only loops, math, and your own brain!
+
+![Start │ ▼ Display welcome message │ ▼ Input number_string │ ▼ Input original_base │ ▼ Input target_base │ ▼ decimal_value = to_decimal(number_string, original_base) │ ▼ converted_value = from_deci](https://github.com/user-attachments/assets/3f0a345d-35f5-465a-808b-de2ac6a346d5)
