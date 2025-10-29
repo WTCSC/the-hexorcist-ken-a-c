@@ -1,2 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1Lpan6Kl)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21350354)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hexorcist — Base Converter</title>
+</head>
+<body>
+    <h1>Hexorcist — Base Converter</h1>
+    
+    <p>A simple program that converts numbers between any two bases (2–36) <strong>without using built-in Python base conversion</strong>. Perfect for learning how numbers really work!</p>
+    
+    <h2>How It Works</h2>
+    <ul>
+        <li><strong>Step 1:</strong> Convert the input number to decimal using a "decoder ring" (0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ).</li>
+        <li><strong>Step 2:</strong> Convert the decimal number to the target base using division and remainders.</li>
+    </ul>
+    
+    <h2>Usage</h2>
+    <ol>
+        <li>Run the program: <code>python hexorcist.py</code></li>
+        <li>Enter the number to convert, its current base, and the target base.</li>
+        <li>The program will display the converted number.</li>
+    </ol>
+    
+    <h2>Rules</h2>
+    <p>No <code>bin()</code>, <code>hex()</code>, <code>oct()</code>, <code>format()</code>, or <code>int(..., base)</code> allowed. Only loops, math, a
